@@ -27,7 +27,7 @@ Reload the browser. Did the second div change colour?
 
 6. Pick a colour and follow the previous steps to make a third div change to the colour of your choice.
 
-Notice that the fourth div in `index.html` has a class already: `invisible`. It's also not on the screen in the browser. There's no `id` attribute, so we can't find it using `getElementById`. To find things by class instead, we need to use `getElementsByClassName` (note the 's' in Elements). 
+Notice that the fourth div in `index.html` has a class already: `invisible`. It's also not on the screen in the browser. There's no `id` attribute,  so we can't find it using `getElementById`. To find things by class instead, we need to use `getElementsByClassName` (note the 's' in Elements). 
 
 `getElementsByClassName` returns an array, because there could be many DOM elements with the class `invisible`. The [MDN documentation on `getElementsByClassName`](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName) might be useful here.
 
